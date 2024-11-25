@@ -78,9 +78,10 @@ a:hover{
     align-items: end;
     }
 
-    @media(max-width: 30%) {
+    @media(max-width: 480px) {
       body{
-         font-size: 15px;
+         font-size: 14px;
+         padding: 10px;
       }
     }
    
