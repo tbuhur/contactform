@@ -1,0 +1,93 @@
+*{
+   margin: 0;
+   padding: 0;
+   text-align: justify;
+   
+}
+
+body{
+font-family: 'Times New Roman', Times, serif;
+background-color: lightskyblue;
+font-size: 25px;
+position: relative;
+left: 120px;
+border-width: 3cm;
+border:2px solid #671811;
+margin-right: 250px;
+}
+ h1{
+
+    color: crimson;
+ }
+label{
+   font-size: 20px;
+   font-style: italic;
+   color: indigo;
+   border-radius: 2px;
+
+}
+
+
+p{
+   font-size: 23px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: black;
+
+
+
+}
+
+button{
+background-color: rgb(255, 8, 0);
+color: black;
+box-shadow: 1px 1px 1px 1px;
+width: 21.5%;
+text-align: center;
+}
+
+
+button:hover{
+ background-color: rgb(255, 170, 0);
+
+}
+
+a:hover{
+   color: red;
+
+
+}
+#nameId,
+#emaill,
+#greetBtn,
+#repeatBtn{
+    
+    width: 21.5%;
+    padding: 0.6;
+    margin-bottom: 0.9;
+    border-radius: 1px;
+    border: 1px   solid #671811;
+     border-width: 1px;
+    }
+    #nameId,
+    #emaill,
+    #greet,
+    #termsconditions-link{
+    width: 21.5%;
+    padding: 0.6;
+    margin-bottom: 0.9;
+    align-items: end;
+    }
+
+    @media(max-width: 30%) {
+      body{
+         font-size: 15px;
+      }
+    }
+   
+   
+
+
+
+
+
+

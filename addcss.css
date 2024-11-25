@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2cdf7;
+}
+.formHeader {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+label {
+    font-size: 16px;
+    color: rgb(79, 41, 168);
+}
+#userName,
+#feedbackSubject {
+width: 15%;
+padding: 0.6;
+margin-bottom: 0.9;
+border: 1px solid #114967;
+border-radius: 4px;
+}
+#message {
+    width: 50%;
+    padding: 0.5;
+    margin-bottom: 0.5rem;
+    border: 1px solid #114967;
+    border-radius: 4px;
+    height: 10rem;
+}
+.submitButton {
+    width: 22%;
+    padding: 0.5rem;
+    background-color: #e01212;
+    color: #0d0b0b;
+    border: none;
+    border-radius: 4px;
+
+}
+.contactFormImage{
+    width: 30%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+.contactForm {
+    border: 5px;
+    border-radius: 2px;
+    
+}
+.termsconditions-link:visited {
+    color: #c22e17;
+  }
+  
+  .termsconditions-link:hover {
+    color: #c22e17;
+  }
+
+p{
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer{
+    text-align: justify
+    ;}
+
+.physicsp{
+    position: absolute;
+    left: 350px;
+    top: 72px;
+}
+.followin{
+    animation: fadeIn 10s;
+    position: fixed;
+    right: 70px;
+    top: 50px;
+}
+.followins{
+    animation: fadeIn 10s;
+    position: fixed;
+    right: 50px;
+    top: 50px;
+    
+}
+table,
+td,
+th{
+border: 1px solid black;
+
+}
+.tabless{
+    display: flex;
+    justify-content: flex-start; gap: 15px;
+}
+
+th{
+background-color: aquamarine;
+color: #5d085d;
+}
+.submitButton{
+    box-shadow: 3px 3px 2px 1px #313029 ;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.submitButton:hover{
+    color: #313029;
+}
+.followins:hover{
+    display: none;
+}
